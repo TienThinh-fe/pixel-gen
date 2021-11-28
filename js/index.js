@@ -59,7 +59,7 @@ const pixelIt = () => {
         from: inputImage,
         to: canvasImage,
     });
-    px.draw().setScale(16).pixelate();
+    px.draw().setScale(10).pixelate();
     canvasImage.style.display = 'block';
 }
 
